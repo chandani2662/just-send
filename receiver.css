@@ -1,0 +1,74 @@
+body{
+	background-image: url(nature.jpg);
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.contant {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+
+.main{
+    opacity:0.5;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+/*    padding: 10px;
+    height: 25vh;
+    width: 20vh;
+    margin:14vh;*/
+    width:300px;
+    background-color: red;
+    border: 15px solid green;
+    border-radius: 30px;
+}
+
+.head h1{
+	color: black;
+	font-size: 50px;
+}
+.input-group{
+	margin: 10px;
+	padding: 5px;
+}
+.input-group input[type=text]{
+	height: 25px;
+	border: 3px solid black;
+	background-color: #ACD4EB;
+
+}
+.input-group textarea{
+	height: 55px;
+	width: 175px;
+	border: 3px solid black;
+	background-color: #ACD4EB;
+
+}
+.group{
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	width: 180px;
+
+}
+.group button{
+		border: 3px solid black;
+		padding: 5px;
+		width: 60px;
+		font-size: 20px;
+		background-color: #ACD4EB;
+		align-items: center;
+		font-weight: bolder;
+		color: black;
+}
+
+.group .btn.btn--wide {
+	width: 100%;
+}

@@ -1,0 +1,74 @@
+body{
+	background-image: url(https://www.solidbackgrounds.com/images/website/950x534/950x534-little-green-leaves-free-website-background-image.jpg);
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contant {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+
+.main{
+
+	opacity:0.5;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+/*    padding: 10px;
+    height: 25vh;
+    width: 20vh;
+    margin:14vh;*/
+    width:250px;
+    background-color: red;
+    border: 15px solid green;
+    border-radius: 30px;
+    
+}
+.send{
+	background-color: #05AD63;
+	border-radius: 90px;
+	text-align: center;
+	font-size: 12px;
+	padding: 1px 3px;
+	color: #010B07;
+	text-transform: uppercase;
+	margin: 15px;
+}
+.rec{
+	background-color: #05AD63;
+	border-radius: 90px;
+	text-align: center;
+	font-size: 12px;
+	padding: 1px 3px;
+	color: #010B07;
+	text-transform: uppercase;
+	margin: 15px;
+}
+
+.head{
+	position: relative;
+	font-size: 25px;
+}
+/*.send{
+	background-color: #05AD63;
+	/*padding: 3px 15px;
+	margin: 15px ;
+	border-radius: 90px;
+	text-align: center;
+	font-size: 25px;
+	color: #010B07;
+	text-transform: uppercase;
+}
+.rec{
+	background-color:#05AD63;
+	/*padding: 3px 15px	
+	border-radius: 90px;
+	font-size: 25px;
+	text-align: center;
+	color: #010B07;
+	text-transform: uppercase;
+}*/

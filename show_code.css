@@ -1,0 +1,46 @@
+    body{
+	height: 90vh;
+
+}
+.contant {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+
+.main{
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    background-color: red;
+    border: 15px solid green;
+    border-radius: 30px;
+}
+.head h1{
+    color: black;
+    font-size: 50px;
+    
+}
+.form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+.group{
+    border: 5px solid green;
+    padding: 5px;
+    margin-bottom:5px;
+}
+.group a{
+text-decoration: none;
+color: black;
+}
+.group a:hover {
+  color: hotpink;
+}
